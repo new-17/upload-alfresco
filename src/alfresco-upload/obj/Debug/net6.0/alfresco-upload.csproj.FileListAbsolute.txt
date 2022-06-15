@@ -1,0 +1,15 @@
+C:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.csproj.AssemblyReference.cache
+C:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.AssemblyInfoInputs.cache
+C:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.AssemblyInfo.cs
+C:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.csproj.CoreCompileInputs.cache
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\bin\Debug\net6.0\alfresco-upload.exe
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\bin\Debug\net6.0\alfresco-upload.deps.json
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\bin\Debug\net6.0\alfresco-upload.runtimeconfig.json
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\bin\Debug\net6.0\alfresco-upload.dll
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\bin\Debug\net6.0\alfresco-upload.pdb
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.dll
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\refint\alfresco-upload.dll
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.pdb
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\alfresco-upload.genruntimeconfig.cache
+c:\Users\NEW\Documents\GitHub\upload-alfresco\src\alfresco-upload\obj\Debug\net6.0\ref\alfresco-upload.dll
