@@ -1,1 +1,0 @@
-curl -u admin:aaaa https://host/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-/children -F filedata=@"FileTest\TestDocument.pdf"
