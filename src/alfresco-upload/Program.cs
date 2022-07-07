@@ -7,7 +7,7 @@ internal class Program
         using (var httpClient = new HttpClient())
         {
             var host = "https://example.com";
-            using (var request = new HttpRequestMessage(new HttpMethod("POST"), $"{host}/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-/children"))
+            using (var request = new HttpRequestMessage(new HttpMethod("POST"), $"{host}/alfresco/api/-default-/public/alfresco/versions/1/nodes/-my-/children"))
             {
                 var user = "admin";
                 var pass = "admin";
@@ -18,11 +18,12 @@ internal class Program
                 var targetPath = "/Api/Test";
                 var targetName = "Upload from api.pdf";
                 var multipartContent = new MultipartFormDataContent();
-                multipartContent.Add(new ByteArrayContent(File.ReadAllBytes(filePath)), "filedata");
+                multipartContent.Add(new ByteArrayContent(File.ReadAllBytes(filePath)), "filedata", targetName);
                 multipartContent.Add(new StringContent(targetPath), "relativePath");
-                multipartContent.Add(new StringContent(targetName), "name");
+                multipartContent.Add(new StringContent("true"), "autoRename");
+                multipartContent.Add(new StringContent("false"), "overwrite");
                 // Add properties (ชื่อ Parameter ให้ดูจากไฟล์ Spec API)
-                multipartContent.Add(new StringContent("Application Form"), "TNI:DocuemntType");
+                multipartContent.Add(new StringContent("Application Form"), "Model:DocuemntType");
                 request.Content = multipartContent;
 
                 var response = await httpClient.SendAsync(request);
